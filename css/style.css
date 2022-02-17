@@ -8,10 +8,84 @@
   text-align: center;
 }
 
-.quote span:first-child {
-  opacity: 0.8;
+.greeting,
+.clock,
+.quote,
+.todo-input,
+.todo-list,
+.date,
+.todo-input::placeholder,
+button {
+  font-size: 50px;
+  font-weight: 800;
+  color: rgba(255, 255, 255, 0.9);
+  -webkit-text-stroke: 0.1px rgba(0, 0, 0, 0.5);
+}
+
+.clock,
+.date,
+.todo-form,
+.todo-list {
+  position: absolute;
+}
+
+.date {
+  bottom: 40px;
+  right: 20px;
+}
+
+.clock {
+  bottom: 20px;
+  right: 20px;
+}
+
+.todo-input,
+.todo-input:focus {
+  border: none;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.5);
+  background-color: transparent;
+  outline: none;
+  text-align: center;
+}
+
+.clock,
+.date,
+.todo-list,
+button,
+.todo-input,
+.quote,
+.todo-input::placeholder {
+  font-size: 20px;
+}
+
+.todo-form {
+  top: 40px;
+  right: 100px;
+}
+
+.todo-list {
+  top: 60px;
+  right: 100px;
+}
+
+button {
+  background-color: transparent;
+  border: none;
+  font-weight: 200;
 }
 
 img {
   display: flex;
+  height: 100vh;
+  width: 100%;
+}
+
+body {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  scrollbar-width: none;
 }

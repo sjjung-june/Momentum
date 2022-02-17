@@ -14,4 +14,4 @@ function onGeoErr() {
   alert("No Geolocation Information, Weather Application Disabled");
 }
 
-console.log(navigator.geolocation.getCurrentPosition(onGeoOk, onGeoErr));
+//console.log(navigator.geolocation.getCurrentPosition(onGeoOk, onGeoErr));

@@ -17,16 +17,24 @@
       />
       <input type="submit" value="Log In" />
     </form>
-    <h1 class="greeting hidden"></h1>
-    <h2 class="clock">00:00</h2>
-    <form class="ToDo-form">
-      <input required type="text" placeholder="What's going on?" />
-    </form>
-    <ul class="ToDo-list"></ul>
+    <span class="greeting hidden"></span>
+    <span class="date"></span>
+    <span class="clock"></span>
+
     <div class="quote">
       <span></span>
       <span></span>
     </div>
+    <form class="todo-form">
+      <input
+        class="todo-input"
+        required
+        type="text"
+        placeholder="Keep it organized"
+      />
+    </form>
+    <ul class="todo-list"></ul>
+
     <script src="js\greetings.js"></script>
     <script src="js\clock.js"></script>
     <script src="js\quotes.js"></script>
