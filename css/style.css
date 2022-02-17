@@ -1,0 +1,17 @@
+.hidden {
+  display: none;
+}
+
+.login-form input:first-child {
+  border: none;
+  border-bottom: 1px solid black;
+  text-align: center;
+}
+
+.quote span:first-child {
+  opacity: 0.8;
+}
+
+img {
+  display: flex;
+}
